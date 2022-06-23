@@ -466,12 +466,15 @@
 	.arrow-crowdfunding {
 		position: absolute;
 		z-index: 5;
-		left: 50%;
+		left: calc(50% - 0.75rem);
 		width: 19.125rem;
 		height: 9.375rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		@media (max-width: 89.938rem){
+			left: calc(50% + 0.15rem);
+		}
 		@media (max-width: 47.938rem){
 			width: 12.5rem;
 			height: 6.125rem;
@@ -479,6 +482,7 @@
 		@media (max-width: 29.938rem){
 			width: 8.313rem;
 			height: 4.063rem;
+			left: calc(50% - 0.3rem);
 		}
 		span {
 			position: relative;
@@ -519,6 +523,12 @@
 	&__arrow-right {
 		top: 1.563rem;
 		transform: translate(-50%, 0);
+		@media (max-width: 119.938rem){
+			top: 1.25rem;
+		}
+		@media (max-width: 89.938rem) {
+			top: 1.5rem;
+		}
 		@media (max-width: 47.938rem){
 			top: 5.25rem;
 			transform: translate(-58%, 0);
@@ -542,9 +552,15 @@
 			right: 0;
 			border: 5rem solid transparent;
 			border-left: 9.375rem solid #00DBC8;
+			@media (max-width: 119.938rem) {
+				border: 4.25rem solid transparent;
+				border-left: 7.5rem solid #00DBC8;
+				transform: translate(39%, -50%);
+			}
 			@media (max-width: 47.938rem){
 				border: 3rem solid transparent;
 				border-left: 4.563rem solid #00DBC8;
+				transform: translate(50%, -50%);
 			}
 			@media (max-width: 29.938rem) {
 				border: 2rem solid transparent;
@@ -555,6 +571,12 @@
 	&__arrow-left {
 		bottom: 1.563rem;
 		transform: translate(-50%, 0) rotate(180deg);
+		@media (max-width: 119.938rem) {
+			bottom: 1.25rem;
+		}
+				@media (max-width: 89.938rem) {
+					bottom: 1.5rem;
+				}
 		@media (max-width: 47.938rem) {
 			bottom: 5.25rem;
 			transform: translate(-50%, 0) rotate(180deg);
@@ -579,9 +601,15 @@
 			right: 0;
 			border: 5rem solid transparent;
 			border-left: 9.375rem solid #0DE5FE;
+			@media (max-width: 119.938rem) {
+				border: 4.25rem solid transparent;
+				border-left: 7.5rem solid #0DE5FE;
+				transform: translate(39%, -50%);
+			}
 			@media (max-width: 47.938rem) {
 				border: 3rem solid transparent;
 				border-left: 4.563rem solid #0DE5FE;
+				transform: translate(50%, -50%);
 			}
 			@media (max-width: 29.938rem){
 				border: 2rem solid transparent;
