@@ -548,10 +548,10 @@
 			transform: translate(0, -50%);
 		}
 		&::after{
-			transform: translate(50%, -50%);
+			transform: translate(38%, -50%);
 			right: 0;
-			border: 5rem solid transparent;
-			border-left: 9.375rem solid #00DBC8;
+			border: 4rem solid transparent;
+			border-left: 7.5rem solid #00DBC8;
 			@media (max-width: 119.938rem) {
 				border: 4.25rem solid transparent;
 				border-left: 7.5rem solid #00DBC8;
@@ -598,10 +598,10 @@
 		}
 	
 		&::after {
-			transform: translate(50%, -50%);
+			transform: translate(38%, -50%);
 			right: 0;
-			border: 5rem solid transparent;
-			border-left: 9.375rem solid #0DE5FE;
+			border: 4rem solid transparent;
+			border-left: 7.5rem solid #0DE5FE;
 			@media (max-width: 119.938rem) {
 				border: 4.25rem solid transparent;
 				border-left: 7.5rem solid #0DE5FE;

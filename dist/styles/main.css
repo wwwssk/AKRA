@@ -1312,10 +1312,10 @@ h6 {
 }
 
 .middle-crowdfunding__arrow-right::after {
-  transform: translate(50%, -50%);
+  transform: translate(38%, -50%);
   right: 0;
-  border: 5rem solid transparent;
-  border-left: 9.375rem solid #00DBC8;
+  border: 4rem solid transparent;
+  border-left: 7.5rem solid #00DBC8;
 }
 
 .middle-crowdfunding__arrow-left {
@@ -1337,10 +1337,10 @@ h6 {
 }
 
 .middle-crowdfunding__arrow-left::after {
-  transform: translate(50%, -50%);
+  transform: translate(38%, -50%);
   right: 0;
-  border: 5rem solid transparent;
-  border-left: 9.375rem solid #0DE5FE;
+  border: 4rem solid transparent;
+  border-left: 7.5rem solid #0DE5FE;
 }
 
 .middle-crowdfunding__right {
